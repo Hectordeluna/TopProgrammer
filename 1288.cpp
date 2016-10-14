@@ -10,17 +10,17 @@ int main()
     int T;
     int Num;
     cin >> T;
-    while (T--){
+    while (T > 0){
 
         cin >> Num;
 
-        if(Num % 6 != 0 ){
-            cout << "NO" << endl;
-        } else {
+        if(Num % 6 == 0 ){
             cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
         }
 
-
+        T--;
     }
 
 

@@ -4,9 +4,9 @@ T = input()
 
 
 for i in range(T):
-   N = input
+	N = input()
 
-   if N % 6 == 0:
-    print ("YES")
-else:
-    print ("NO")
+	if N % 6 == 0:
+		print ("YES")
+	else:
+		print ("NO")
