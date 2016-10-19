@@ -1,14 +1,16 @@
 
 Total = raw_input()
 inT = int(Total)
-LatotS = ""
 T = 0
 while inT > 0:
 
     LatotS = ""
-    Latot = list(str(inT))
+    Latot = list(Total)
+    print (Latot)
     Latot.sort(key=int)
+    print (Latot)
     LatotS = LatotS.join(Latot)
+    print (LatotS)
 
     inT = inT - int(LatotS)
     T = T + 1
